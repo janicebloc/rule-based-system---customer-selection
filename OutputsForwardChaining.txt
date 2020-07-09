@@ -1,0 +1,74 @@
+Output text file
+Exam Candidate # Y3872645
+
+Output from files:
+ForwardChaining1
+
+Model: 
+Variable 1 = false
+Variable 2 = false
+Variable 3 = false
+Variable 4 = false
+Variable 5 = false
+Variable 6 = false
+Variable 7 = false
+Variable 8 = false
+Variable 9 = false
+Variable 10 = false
+Variable 11 = false
+Model exists: true
+
+ForwardChaining2
+
+Inferred 2 with clause [2]
+Inferred 10 with clause [10]
+Inferred 7 with clause [7]
+Inferred 8 with clause [-2, 8]
+Inferred 9 with clause [-7, 9]
+Inferred 11 with clause [-8, -9, 11]
+No models satisfy all clauses simultaneously. False goal clause: [-10, -11]
+Model exists: false
+
+ForwardChaining3
+
+Inferred 1 with clause [1]
+Inferred 4 with clause [4]
+Inferred 10 with clause [10]
+Inferred 6 with clause [6]
+Inferred 8 with clause [-1, -4, 8]
+Inferred 9 with clause [-6, 9]
+Inferred 11 with clause [-8, -9, 11]
+No models satisfy all clauses simultaneously. False goal clause: [-10, -11]
+Model exists: false
+
+ForwardChaining4
+
+Inferred 1 with clause [1]
+Inferred 4 with clause [4]
+Inferred 11 with clause [11]
+Inferred 7 with clause [7]
+Inferred 2 with clause [-7, 2]
+Inferred 8 with clause [-2, 8]
+Inferred 9 with clause [-7, 9]
+No models satisfy all clauses simultaneously. False goal clause: [-1, -2]
+Model exists: false
+
+ForwardChaining5
+
+Inferred 4 with clause [4]
+Inferred 6 with clause [6]
+Inferred 11 with clause [11]
+Inferred 9 with clause [-6, 9]
+Model: 
+Variable 1 = false
+Variable 2 = false
+Variable 3 = false
+Variable 4 = true
+Variable 5 = false
+Variable 6 = true
+Variable 7 = false
+Variable 8 = false
+Variable 9 = true
+Variable 10 = false
+Variable 11 = true
+Model exists: true
